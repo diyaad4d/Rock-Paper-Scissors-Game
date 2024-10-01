@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Rock Paper Scissors Game</title>
+      <link rel="stylesheet" href="./Styles/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+
+
+
+        <div class="box-container">
+
+            <div class="left-box">
+                <button onclick="resetScore();" class="reset-score-button"> Reset Score </button>
+            </div>
+
+
+            <div class="box-score">
+                <h1 class="h-style">SCORE</h1>
+                <p class="js-result"></p>
+            </div>
+
+
+            <div class="right-box">
+                <p class="info-title">Play With d4d:</p>
+                <p class="info-paragraph">Rock Paper Scissors</p>
+            </div>
+        </div>
+
+
+        <div class="hands">
+            <button onclick="playGame('rock'); trans('rock');" class="move-button"><img src="./images/rock.png"  class="icon"></button>
+            <button onclick="playGame('paper'); trans('paper');" class="move-button paper"><img src="./images/paper.png" class="icon"></button>
+            <button onclick="playGame('scissor'); trans('scissor');" class="move-button scissor"><img src="./images/scissor.png" class="icon"></button>
+        </div>
+
+
+
+        <div class="window-result">
+            <div class="userhand">
+                <h1>YOU</h1>
+                <div class="box-hand-user">
+
+                </div>
+            </div>
+            <div class="result">
+                <h1 class="the-result"> YOU WIN! </h1>
+                <div class="newGame" onclick="playAgain()">PLAY AGAIN</div>
+            </div>
+            <div class="computer">
+                <h1>d4d</h1>
+                <div class="box-hand-computer">
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="./Scripts/rock-paper-scissors.js"></script>
+  </body>
+</html>
