@@ -67,7 +67,7 @@ function playGame(playMove){
     }
     calScore(result);
     updateScore();
-   appearResult(result);
+    appearResult(result);
 }
 function playAgain(){
     let window=document.querySelector('.window-result');

@@ -219,3 +219,62 @@ body {
     color: white;
 }
 
+
+
+@media (max-width: 768px) {
+
+
+    .wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .box-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .box-score {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+
+    .hands img {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .move-button {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .window-result {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .window-result img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .info-paragraph, .h-style, .js-result, .info-title, .result h1 {
+        font-size: 20px;
+    }
+
+
+    .reset-score-button {
+        height: 100px;
+        font-size: 20px;
+    }
+}
